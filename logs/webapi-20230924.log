@@ -1,0 +1,130 @@
+2023-09-24 15:14:13.110 -07:00  INF  User profile is available. Using 'C:\Users\Binisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-24 15:14:13.209 -07:00  INF  Now listening on: https://localhost:7777
+2023-09-24 15:14:13.209 -07:00  INF  Now listening on: http://localhost:5275
+2023-09-24 15:14:13.211 -07:00  INF  Application started. Press Ctrl+C to shut down.
+2023-09-24 15:14:13.212 -07:00  INF  Hosting environment: Development
+2023-09-24 15:14:13.212 -07:00  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-09-24 15:14:13.992 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-09-24 15:14:14.152 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 163.6046ms
+2023-09-24 15:14:14.179 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-09-24 15:14:14.179 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-09-24 15:14:14.181 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 1.8279ms
+2023-09-24 15:14:14.186 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.1159ms
+2023-09-24 15:14:14.487 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-09-24 15:14:14.550 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.6672ms
+2023-09-24 15:14:35.082 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-09-24 15:14:35.087 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8688ms
+2023-09-24 15:14:35.094 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-09-24 15:14:35.094 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-09-24 15:14:35.095 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 0.3870ms
+2023-09-24 15:14:35.097 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7969ms
+2023-09-24 15:14:35.161 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-09-24 15:14:35.165 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.5740ms
+2023-09-24 15:14:36.367 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-09-24 15:14:36.370 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 3.5392ms
+2023-09-24 15:14:36.380 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-09-24 15:14:36.380 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-09-24 15:14:36.380 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 0.2124ms
+2023-09-24 15:14:36.382 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1.8354ms
+2023-09-24 15:14:36.439 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-09-24 15:14:36.443 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.1947ms
+2023-09-24 15:14:40.184 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/api/Books/globalExceptionTest - -
+2023-09-24 15:14:40.221 -07:00  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 15:14:40.232 -07:00  INF  Route matched with {action = "ExceptionCheck", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExceptionCheck() on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-09-24 15:14:40.301 -07:00  INF  Executed action BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem) in 65.9249ms
+2023-09-24 15:14:40.302 -07:00  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 15:14:40.305 -07:00  ERR  An unhandled exception has occurred while executing the request.System.NotImplementedException: The method or operation is not implemented.
+   at BookManagementSystem.Controllers.BooksController.ExceptionCheck() in C:\Projects\BookManagementSystem\BookManagementSystem\Controllers\BooksController.cs:line 102
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-09-24 15:14:40.321 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/api/Books/globalExceptionTest - - - 500 - - 136.8959ms
+2023-09-24 16:14:11.999 -07:00  INF  User profile is available. Using 'C:\Users\Binisha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-24 16:14:12.089 -07:00  INF  Now listening on: https://localhost:7777
+2023-09-24 16:14:12.089 -07:00  INF  Now listening on: http://localhost:5275
+2023-09-24 16:14:12.091 -07:00  INF  Application started. Press Ctrl+C to shut down.
+2023-09-24 16:14:12.091 -07:00  INF  Hosting environment: Development
+2023-09-24 16:14:12.092 -07:00  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-09-24 16:14:12.525 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-09-24 16:14:12.696 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 172.8917ms
+2023-09-24 16:14:12.700 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-09-24 16:14:12.702 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 1.7941ms
+2023-09-24 16:14:12.716 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-09-24 16:14:12.723 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.3611ms
+2023-09-24 16:14:12.904 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-09-24 16:14:12.977 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.6934ms
+2023-09-24 16:14:16.341 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/globalExceptionTest - -
+2023-09-24 16:14:16.784 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/globalExceptionTest - - - 404 0 - 443.4234ms
+2023-09-24 16:14:26.323 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-09-24 16:14:26.323 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 0.5254ms
+2023-09-24 16:14:33.511 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777//api/Books/globalExceptionTest - -
+2023-09-24 16:14:33.512 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777//api/Books/globalExceptionTest - - - 404 0 - 1.0586ms
+2023-09-24 16:14:37.207 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/api/Books/globalExceptionTest - -
+2023-09-24 16:14:37.211 -07:00  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 16:14:37.222 -07:00  INF  Route matched with {action = "ExceptionCheck", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExceptionCheck() on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-09-24 16:14:37.427 -07:00  INF  Executed action BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem) in 201.3571ms
+2023-09-24 16:14:37.428 -07:00  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 16:14:37.431 -07:00  ERR  An unhandled exception has occurred while executing the request.System.NotImplementedException: The method or operation is not implemented.
+   at BookManagementSystem.Controllers.BooksController.ExceptionCheck() in C:\Projects\BookManagementSystem\BookManagementSystem\Controllers\BooksController.cs:line 102
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-09-24 16:14:37.463 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/api/Books/globalExceptionTest - - - 500 - - 256.2290ms
+2023-09-24 16:14:37.663 -07:00  INF  Request starting HTTP/2 GET https://localhost:7777/favicon.ico - -
+2023-09-24 16:14:37.664 -07:00  INF  Request finished HTTP/2 GET https://localhost:7777/favicon.ico - - - 404 0 - 0.4360ms
+2023-09-24 16:15:06.513 -07:00  INF  Request starting HTTP/1.1 GET https://localhost:7777/api/Books/globalExceptionTest - -
+2023-09-24 16:15:06.514 -07:00  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 16:15:06.514 -07:00  INF  Route matched with {action = "ExceptionCheck", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExceptionCheck() on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-09-24 16:15:06.518 -07:00  INF  Executed action BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem) in 4.3482ms
+2023-09-24 16:15:06.518 -07:00  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.ExceptionCheck (BookManagementSystem)'
+2023-09-24 16:15:06.518 -07:00  ERR  An unhandled exception has occurred while executing the request.System.NotImplementedException: The method or operation is not implemented.
+   at BookManagementSystem.Controllers.BooksController.ExceptionCheck() in C:\Projects\BookManagementSystem\BookManagementSystem\Controllers\BooksController.cs:line 102
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-09-24 16:15:06.520 -07:00  INF  Request finished HTTP/1.1 GET https://localhost:7777/api/Books/globalExceptionTest - - - 500 - - 6.8644ms
