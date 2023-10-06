@@ -1,0 +1,59 @@
+{
+  "Routes": [
+    //for Book API
+    {
+      "UpstreamPathTemplate": "/api/books",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "book.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/books"
+    },
+    {
+      "UpstreamPathTemplate": "/api/orders/{orderid}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "order.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/orders/{orderid}"
+    },
+
+    //For Order Api
+    {
+      "UpstreamPathTemplate": "/api/orders",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "order.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/orders"
+    },
+    {
+      "UpstreamPathTemplate": "/api/orders/{orderid}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "order.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/orders/{orderid}"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:800"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YpHNYfmGfD1gBayYbkUpkbjaw8NpQFqMcoVOofTedd2L0Xm6wODy1/wDaIpWf8SgA5kAIB1rsUSTriFzUfKCuQ==",
+  "dgSpecHash": "1+6eS0dRhcci9G+CUX/IMi8LIGHaJJrds0cOUx+oq35we758yJ6vpWfKfjGhCTKB9RxzrhizJmkkMp6hFu+sKw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\BookManagementSystem\\BookManagementSystem\\BookManagementSystem.csproj",
   "expectedPackageFiles": [
@@ -122,6 +122,7 @@
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.16\\microsoft.visualstudio.web.codegeneration.6.0.16.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.16\\microsoft.visualstudio.web.codegeneration.core.6.0.16.nupkg.sha512",

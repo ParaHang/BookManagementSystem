@@ -9,5 +9,6 @@ namespace BookManagementSystemOrder.Repository.Interfaces
         Task<ResultModel<Order>> GetOrders();
         Task<ResultModel<string>> GetBookListFromBookOrder();
         Task<ResultModel<BookOrder>> GetBookOrders();
+        Task<ResultModel<string>> DeleteOrderById(int id);
     }
 }

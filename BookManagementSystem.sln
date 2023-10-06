@@ -5,9 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementSystem", "BookManagementSystem\BookManagementSystem.csproj", "{FFEF5A59-4795-4912-8E3C-FF757E93030E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagementSystemOrder", "BookManagementSystemOrder\BookManagementSystemOrder.csproj", "{53800474-DBC6-4A44-9EC0-4BB25D154FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementSystemOrder", "BookManagementSystemOrder\BookManagementSystemOrder.csproj", "{53800474-DBC6-4A44-9EC0-4BB25D154FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagementSystem.Common", "BookManagementSystem.Common\BookManagementSystem.Common.csproj", "{D2F910C5-745E-4C33-9BF6-E9119D0CFD35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementSystem.Common", "BookManagementSystem.Common\BookManagementSystem.Common.csproj", "{D2F910C5-745E-4C33-9BF6-E9119D0CFD35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,7 +3,6 @@ using BookManagementSystem.Interfaces;
 using BookManagementSystem.Repository;
 using BookManagementSystem.Repository.Interfaces;
 using BookManagementSystem.Services;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 

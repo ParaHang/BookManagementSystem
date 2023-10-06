@@ -1,11 +1,9 @@
 ﻿using BookManagementSystem.Common;
 using BookManagementSystem.Common.Models;
 using BookManagementSystemOrder.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net;
-using System.Net.Http.Headers;
 using System.Text;
 
 namespace BookManagementSystemOrder.Controllers
@@ -15,16 +13,16 @@ namespace BookManagementSystemOrder.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        public OrdersController(IOrderService orderService)
+        private readonly IConfiguration _configuration;
+        public OrdersController(IOrderService orderService, IConfiguration configuration)
         {
             _orderService = orderService;
+            _configuration = configuration;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
             ResultModel<OrderResponse> result = new ResultModel<OrderResponse>();
-
-
             try
             {
                 var orders = await _orderService.GetOrders();
@@ -37,25 +35,20 @@ namespace BookManagementSystemOrder.Controllers
                 var bookIdList = await _orderService.GetBookListFromBookOrder();
                 using (HttpClient httpClient = new HttpClient())
                 {
-
                     if (!bookIdList.data.Any())
                     {
                         result.message = "No data";
 
                         return StatusCode((int)HttpStatusCode.BadRequest, result);
-                    }
-                    // Specify the API URL you want to call
-                    string apiUrl = "https://localhost:7777/api/books/GetBooksByIds";
-                     
+                    } 
+                    string apiUrl = _configuration["MS2BaseUrl"]+ "api/books/GetBooksByIds";
+
                     string jsonIds = Newtonsoft.Json.JsonConvert.SerializeObject(bookIdList.data);
-
-                    // Create a StringContent object with the JSON data
+                     
                     var content = new StringContent(jsonIds, Encoding.UTF8, "application/json");
-
-                    // Send a POST request to the API with the list of integers as parameters
+                     
                     HttpResponseMessage response = await httpClient.PostAsync(apiUrl, content);
-
-                    // Check if the response is successful (HTTP status code 200-299)
+                     
                     if (response.IsSuccessStatusCode)
                     {
                         // Read and process the response content
@@ -64,13 +57,18 @@ namespace BookManagementSystemOrder.Controllers
                         var bookOrders = await _orderService.GetBookOrders();
                         List<OrderResponse> respList = new List<OrderResponse>();
 
-                        foreach(var item in bookOrders.data)
+                        foreach (var item in bookOrders.data.Select(x=>x.OrderId).Distinct().ToList())
                         {
                             OrderResponse orderResponse = new OrderResponse();
-                            orderResponse.OrderId = item.OrderId;
-                            orderResponse.OrderName = orders.data.Where(x => x.OrderId == item.OrderId).Select(x => x.Name).FirstOrDefault();
-                            orderResponse.Books = list.data.Where(x=>x.Id == item.BooktId).ToList();
+                            orderResponse.OrderId = item;
+                            orderResponse.OrderName = orders.data.Where(x => x.OrderId == item).Select(x => x.Name).FirstOrDefault();
                             respList.Add(orderResponse);
+                        }
+                        foreach(var item in respList)
+                        {
+                            var listOfBookOrders = bookOrders.data.Where(x => x.OrderId == item.OrderId).Select(x => x.BooktId).ToList();
+                            var bookList = list.data.Where(x => listOfBookOrders.Contains(x.Id)).ToList();
+                            item.Books = bookList;
                         }
                         result.data = respList;
                         result.success = true;
@@ -106,6 +104,19 @@ namespace BookManagementSystemOrder.Controllers
             {
                 response.message = "Internal Server Error: " + ex.Message;
                 return StatusCode((int)HttpStatusCode.InternalServerError, response);
+            }
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteOrder(int id)
+        {
+            try
+            {
+                var result = await _orderService.DeleteOrdersById(id);
+                return StatusCode((int)HttpStatusCode.OK, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
         }
     }

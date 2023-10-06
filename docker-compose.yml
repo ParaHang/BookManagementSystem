@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  bookmanagementsystemorder:
+    image: ${DOCKER_REGISTRY-}bookmanagementsystemorder
+    build:
+      context: .
+      dockerfile: BookManagementSystemOrder\Dockerfile
+
+  bookmanagementsystem:
+    image: ${DOCKER_REGISTRY-}bookmanagementsystem
+    build:
+      context: .
+      dockerfile: BookManagementSystem\Dockerfile
+

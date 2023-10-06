@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WK6ygRYg9TJGGx6kkeekRBTdjkYsOeTYnShnmRv3bZFFsK8+BMJ/yiWWhqyKf7B1o5DCmT8L2a0F9RKrRPbxiA==",
+  "dgSpecHash": "l4CTrKDItpm6tP18sb/+//d2fJ4zvfXcyW+b9qRP11Vz8BOrUXev3DLADcKQ/LR6g5bq0OG7h9nosa2avrIqBA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\BookManagementSystem\\BookManagementSystemOrder\\BookManagementSystemOrder.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Binisha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Binisha\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

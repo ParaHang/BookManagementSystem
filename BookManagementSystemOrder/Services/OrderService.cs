@@ -28,5 +28,9 @@ namespace BookManagementSystemOrder.Services
         {
             return await _orderRepository.GetBookOrders();
         }
+        public async Task<ResultModel<string>> DeleteOrdersById(int id)
+        {
+            return await _orderRepository.DeleteOrderById(id);
+        }
     }
 }
