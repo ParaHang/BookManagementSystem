@@ -1,0 +1,377 @@
+2023-10-06 11:23:56.621 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:23:56.665 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:23:56.672 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:23:56.672 +05:45  INF  Hosting environment: Development
+2023-10-06 11:23:56.673 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:23:57.752 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:23:58.648 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 901.8814ms
+2023-10-06 11:23:58.720 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:23:58.731 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 10.9998ms
+2023-10-06 11:23:58.749 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:23:58.935 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 186.5231ms
+2023-10-06 11:23:59.223 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:23:59.392 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.0156ms
+2023-10-06 11:24:34.347 +05:45  INF  Request starting HTTP/2 POST https://localhost:7777/api/Books application/json 104
+2023-10-06 11:24:34.355 +05:45  INF  CORS policy execution successful.
+2023-10-06 11:24:34.391 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:24:34.453 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:24:35.833 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:24:35.857 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:24:35.894 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1428.811ms
+2023-10-06 11:24:35.895 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:24:35.903 +05:45  INF  Request finished HTTP/2 POST https://localhost:7777/api/Books application/json 104 - 200 - application/json;+charset=utf-8 1555.9721ms
+2023-10-06 11:24:48.141 +05:45  INF  Request starting HTTP/2 POST https://localhost:7777/api/Books application/json 95
+2023-10-06 11:24:48.142 +05:45  INF  CORS policy execution successful.
+2023-10-06 11:24:48.142 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:24:48.143 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:24:48.147 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:24:48.165 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 22.0595ms
+2023-10-06 11:24:48.165 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:24:48.165 +05:45  INF  Request finished HTTP/2 POST https://localhost:7777/api/Books application/json 95 - 400 - application/problem+json;+charset=utf-8 23.9994ms
+2023-10-06 11:27:44.012 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:27:44.070 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:27:44.079 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:27:44.080 +05:45  INF  Hosting environment: Development
+2023-10-06 11:27:44.080 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:27:44.956 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:27:45.548 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:27:45.549 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 598.4967ms
+2023-10-06 11:27:45.559 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 10.9338ms
+2023-10-06 11:27:45.578 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:27:45.597 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.8565ms
+2023-10-06 11:27:46.116 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:27:46.323 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.5009ms
+2023-10-06 11:28:04.461 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:28:04.502 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:04.563 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:28:05.648 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:28:05.678 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:28:05.717 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1144.7792ms
+2023-10-06 11:28:05.725 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:05.732 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1271.2639ms
+2023-10-06 11:28:11.389 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:28:11.390 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:11.391 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:28:11.426 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:28:11.426 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:28:11.427 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 36.3274ms
+2023-10-06 11:28:11.427 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:11.427 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 37.8168ms
+2023-10-06 11:28:15.450 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:28:15.452 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:15.452 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:28:15.473 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:28:15.473 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:28:15.473 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 21.1759ms
+2023-10-06 11:28:15.474 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:15.474 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 24.2109ms
+2023-10-06 11:28:46.679 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 410
+2023-10-06 11:28:46.679 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:46.679 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:28:46.686 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:28:46.705 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 25.6598ms
+2023-10-06 11:28:46.705 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:28:46.705 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 410 - 400 - application/problem+json;+charset=utf-8 26.4646ms
+2023-10-06 11:29:55.382 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 410
+2023-10-06 11:29:55.382 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:29:55.382 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:29:55.383 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:29:55.383 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 0.684ms
+2023-10-06 11:29:55.383 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:29:55.383 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 410 - 400 - application/problem+json;+charset=utf-8 1.5689ms
+2023-10-06 11:30:17.876 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:30:17.938 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:30:17.947 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:30:17.948 +05:45  INF  Hosting environment: Development
+2023-10-06 11:30:17.948 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:30:18.546 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:30:19.123 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 582.6603ms
+2023-10-06 11:30:19.130 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:30:19.136 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 5.4142ms
+2023-10-06 11:30:19.156 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:30:19.178 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9556ms
+2023-10-06 11:30:19.502 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:30:19.733 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.7370ms
+2023-10-06 11:30:32.564 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 109
+2023-10-06 11:30:32.598 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:30:32.651 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:30:32.975 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:30:33.013 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 353.8375ms
+2023-10-06 11:30:33.016 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:30:33.020 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 109 - 400 - application/problem+json;+charset=utf-8 456.2642ms
+2023-10-06 11:32:23.038 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:32:23.089 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:32:23.097 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:32:23.098 +05:45  INF  Hosting environment: Development
+2023-10-06 11:32:23.098 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:32:23.965 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:32:24.515 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 555.5104ms
+2023-10-06 11:32:24.526 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:32:24.533 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 7.2478ms
+2023-10-06 11:32:24.556 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:32:24.576 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.2118ms
+2023-10-06 11:32:24.915 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:32:25.123 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.1634ms
+2023-10-06 11:32:54.675 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:32:54.713 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:32:54.767 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:32:55.837 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:32:55.861 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:32:55.896 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1120.0534ms
+2023-10-06 11:32:55.897 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:32:55.904 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1228.3206ms
+2023-10-06 11:33:07.034 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:33:07.035 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:07.036 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:33:07.067 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:33:07.068 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:33:07.068 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 32.7656ms
+2023-10-06 11:33:07.068 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:07.069 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 34.5758ms
+2023-10-06 11:33:09.898 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:33:09.900 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:09.900 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:33:09.921 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:33:09.921 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:33:09.921 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 21.0798ms
+2023-10-06 11:33:09.921 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:09.921 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 23.0273ms
+2023-10-06 11:33:59.360 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 40
+2023-10-06 11:33:59.360 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:59.360 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:33:59.381 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:33:59.398 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 37.704ms
+2023-10-06 11:33:59.398 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:33:59.399 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 40 - 400 - application/problem+json;+charset=utf-8 38.4397ms
+2023-10-06 11:36:01.684 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:36:01.764 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:36:01.773 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:36:01.774 +05:45  INF  Hosting environment: Development
+2023-10-06 11:36:01.774 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:36:02.521 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:36:03.090 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:36:03.096 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 581.3640ms
+2023-10-06 11:36:03.097 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 6.6522ms
+2023-10-06 11:36:03.122 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:36:03.141 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5699ms
+2023-10-06 11:36:03.599 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:36:03.821 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.9094ms
+2023-10-06 11:36:08.676 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:36:08.723 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:36:08.784 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:36:09.902 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:36:09.928 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:36:09.965 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1172.3402ms
+2023-10-06 11:36:09.966 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:36:09.972 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1296.5131ms
+2023-10-06 11:36:34.818 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 5
+2023-10-06 11:36:34.818 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:36:34.819 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:36:34.831 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:36:34.846 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 27.7788ms
+2023-10-06 11:36:34.847 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:36:34.847 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/ application/json;+charset=utf-8 5 - 400 - application/problem+json;+charset=utf-8 29.1264ms
+2023-10-06 11:37:25.268 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:37:25.325 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:37:25.334 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:37:25.335 +05:45  INF  Hosting environment: Development
+2023-10-06 11:37:25.335 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:37:26.047 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:37:26.617 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:37:26.623 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 584.5804ms
+2023-10-06 11:37:26.625 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 7.4985ms
+2023-10-06 11:37:26.652 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:37:26.696 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.2032ms
+2023-10-06 11:37:27.071 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:37:27.284 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.8106ms
+2023-10-06 11:37:43.536 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:37:43.571 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:37:43.621 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:37:44.763 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:37:44.793 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:37:44.833 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1201.4068ms
+2023-10-06 11:37:44.834 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:37:44.845 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1308.6369ms
+2023-10-06 11:37:57.474 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:37:57.475 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:37:57.479 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:37:57.985 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:37:58.026 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 547.0067ms
+2023-10-06 11:37:58.026 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:37:58.026 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 551.9909ms
+2023-10-06 11:39:04.149 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:39:04.205 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:39:04.214 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:39:04.215 +05:45  INF  Hosting environment: Development
+2023-10-06 11:39:04.215 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:39:05.040 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:39:05.604 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:39:05.611 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 5.4175ms
+2023-10-06 11:39:05.612 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 578.3097ms
+2023-10-06 11:39:05.637 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:39:05.658 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.2816ms
+2023-10-06 11:39:06.030 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:39:06.244 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.2711ms
+2023-10-06 11:40:08.638 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:40:08.673 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:40:08.728 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:40:09.800 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:40:09.828 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:40:09.867 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1128.1442ms
+2023-10-06 11:40:09.867 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:40:09.875 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1237.0492ms
+2023-10-06 11:40:21.086 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:40:21.086 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:40:21.090 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:40:21.584 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:40:21.619 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 528.4344ms
+2023-10-06 11:40:21.619 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:40:21.619 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 533.5955ms
+2023-10-06 11:41:36.869 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:41:36.921 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:41:36.928 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:41:36.929 +05:45  INF  Hosting environment: Development
+2023-10-06 11:41:36.929 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:41:37.885 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:41:38.507 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 627.9613ms
+2023-10-06 11:41:38.515 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:41:38.520 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 5.4977ms
+2023-10-06 11:41:38.542 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:41:38.567 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8607ms
+2023-10-06 11:41:38.912 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:41:39.138 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.6645ms
+2023-10-06 11:42:08.723 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:42:08.763 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:42:08.815 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:42:09.917 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:42:09.943 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:42:09.981 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1156.8994ms
+2023-10-06 11:42:09.981 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:42:09.988 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 1265.7824ms
+2023-10-06 11:42:17.898 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:42:17.898 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:42:17.902 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:42:18.392 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:42:18.429 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 526.7265ms
+2023-10-06 11:42:18.429 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:42:18.429 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 531.6952ms
+2023-10-06 11:42:38.937 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:42:38.939 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:42:38.939 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:42:38.967 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:42:38.967 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 28.1201ms
+2023-10-06 11:42:38.967 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:42:38.968 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 30.8686ms
+2023-10-06 11:45:26.269 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:45:26.297 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:45:26.302 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:45:26.303 +05:45  INF  Hosting environment: Development
+2023-10-06 11:45:26.303 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:45:27.022 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:45:27.369 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 352.0842ms
+2023-10-06 11:45:27.377 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:45:27.381 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 4.3569ms
+2023-10-06 11:45:27.395 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:45:27.410 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.0684ms
+2023-10-06 11:45:27.602 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:45:27.737 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.0144ms
+2023-10-06 11:45:45.588 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 123
+2023-10-06 11:45:45.610 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:45:45.642 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:45:46.264 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:45:46.277 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:45:46.297 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 649.6422ms
+2023-10-06 11:45:46.297 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:45:46.301 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 123 - 200 - application/json;+charset=utf-8 712.9633ms
+2023-10-06 11:45:54.186 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:45:54.187 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:45:54.188 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:45:54.464 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:45:54.487 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 298.7461ms
+2023-10-06 11:45:54.487 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:45:54.488 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 301.4802ms
+2023-10-06 11:46:52.332 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5
+2023-10-06 11:46:52.334 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:46:52.334 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:46:52.348 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:46:52.348 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 14.07ms
+2023-10-06 11:46:52.348 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:46:52.348 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 5 - 200 - application/json;+charset=utf-8 16.3625ms
+2023-10-06 11:53:05.367 +05:45  INF  Request starting HTTP/1.1 GET https://localhost:7777/api/books/getbooksbyid - -
+2023-10-06 11:53:05.367 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBook (BookManagementSystem)'
+2023-10-06 11:53:05.369 +05:45  INF  Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBook(Int32) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:53:05.373 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:53:05.382 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBook (BookManagementSystem) in 13.0544ms
+2023-10-06 11:53:05.382 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBook (BookManagementSystem)'
+2023-10-06 11:53:05.382 +05:45  INF  Request finished HTTP/1.1 GET https://localhost:7777/api/books/getbooksbyid - - - 400 - application/problem+json;+charset=utf-8 15.8863ms
+2023-10-06 11:53:14.395 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids - 0
+2023-10-06 11:53:14.395 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:14.395 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:53:14.397 +05:45  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-10-06 11:53:14.398 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 2.1325ms
+2023-10-06 11:53:14.398 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:14.398 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids - 0 - 415 - application/problem+json;+charset=utf-8 3.0562ms
+2023-10-06 11:53:31.803 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids application/json 3
+2023-10-06 11:53:31.804 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:31.804 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:53:31.810 +05:45  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-10-06 11:53:31.810 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 6.5259ms
+2023-10-06 11:53:31.810 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:31.810 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids application/json 3 - 400 - application/problem+json;+charset=utf-8 6.8839ms
+2023-10-06 11:53:51.567 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids application/json 5
+2023-10-06 11:53:51.567 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:51.567 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:53:51.568 +05:45  INF  Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:53:51.568 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 0.6725ms
+2023-10-06 11:53:51.568 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:53:51.568 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/getbooksbyids application/json 5 - 200 - application/json;+charset=utf-8 1.0039ms
+2023-10-06 11:55:02.327 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 124
+2023-10-06 11:55:02.330 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:55:02.331 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:55:02.332 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:55:02.332 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:55:02.333 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 1.3377ms
+2023-10-06 11:55:02.333 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:55:02.333 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 124 - 200 - application/json;+charset=utf-8 6.0326ms
+2023-10-06 11:55:17.486 +05:45  INF  Request starting HTTP/1.1 GET https://localhost:7777/api/books application/json 124
+2023-10-06 11:55:17.486 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem)'
+2023-10-06 11:55:17.488 +05:45  INF  Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooks(Int32, Int32) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:55:21.030 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:55:21.030 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem) in 3541.3347ms
+2023-10-06 11:55:21.030 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem)'
+2023-10-06 11:55:21.030 +05:45  INF  Request finished HTTP/1.1 GET https://localhost:7777/api/books application/json 124 - 200 - application/json;+charset=utf-8 3544.2168ms
+2023-10-06 11:56:08.110 +05:45  INF  Now listening on: https://localhost:7777
+2023-10-06 11:56:08.136 +05:45  INF  Now listening on: http://localhost:5275
+2023-10-06 11:56:08.140 +05:45  INF  Application started. Press Ctrl+C to shut down.
+2023-10-06 11:56:08.141 +05:45  INF  Hosting environment: Development
+2023-10-06 11:56:08.141 +05:45  INF  Content root path: C:\Projects\BookManagementSystem\BookManagementSystem\
+2023-10-06 11:56:08.568 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/index.html - -
+2023-10-06 11:56:08.979 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - -
+2023-10-06 11:56:08.988 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_framework/aspnetcore-browser-refresh.js - - - 200 12372 application/javascript;+charset=utf-8 8.0010ms
+2023-10-06 11:56:08.988 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/index.html - - - 200 - text/html;charset=utf-8 426.9592ms
+2023-10-06 11:56:09.019 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/_vs/browserLink - -
+2023-10-06 11:56:09.041 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.1154ms
+2023-10-06 11:56:09.321 +05:45  INF  Request starting HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - -
+2023-10-06 11:56:09.434 +05:45  INF  Request finished HTTP/2 GET https://localhost:7777/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.9084ms
+2023-10-06 11:56:22.636 +05:45  INF  Request starting HTTP/1.1 GET https://localhost:7777/api/books application/json 124
+2023-10-06 11:56:22.657 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem)'
+2023-10-06 11:56:22.689 +05:45  INF  Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooks(Int32, Int32) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:56:26.379 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:56:26.401 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem) in 3707.0001ms
+2023-10-06 11:56:26.403 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooks (BookManagementSystem)'
+2023-10-06 11:56:26.408 +05:45  INF  Request finished HTTP/1.1 GET https://localhost:7777/api/books application/json 124 - 200 - application/json;+charset=utf-8 3771.1322ms
+2023-10-06 11:56:45.175 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books application/json 124
+2023-10-06 11:56:45.176 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:56:45.179 +05:45  INF  Route matched with {action = "PostBook", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostBook(BookManagementSystem.Entities.Book) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:56:45.342 +05:45  INF  Saved 1 entities to in-memory store.
+2023-10-06 11:56:45.348 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-06 11:56:45.349 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem) in 170.5031ms
+2023-10-06 11:56:45.349 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.PostBook (BookManagementSystem)'
+2023-10-06 11:56:45.349 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books application/json 124 - 200 - application/json;+charset=utf-8 173.9501ms
+2023-10-06 11:57:05.588 +05:45  INF  Request starting HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 6
+2023-10-06 11:57:05.589 +05:45  INF  Executing endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:57:05.591 +05:45  INF  Route matched with {action = "GetBooksByIds", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetBooksByIds(System.Collections.Generic.List`1[System.String]) on controller BookManagementSystem.Controllers.BooksController (BookManagementSystem).
+2023-10-06 11:57:05.671 +05:45  INF  Executing ObjectResult, writing value of type 'BookManagementSystem.Common.ResultModel`1[[BookManagementSystem.Entities.Book, BookManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-06 11:57:05.671 +05:45  INF  Executed action BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem) in 79.8694ms
+2023-10-06 11:57:05.671 +05:45  INF  Executed endpoint 'BookManagementSystem.Controllers.BooksController.GetBooksByIds (BookManagementSystem)'
+2023-10-06 11:57:05.671 +05:45  INF  Request finished HTTP/1.1 POST https://localhost:7777/api/books/GetBooksByIds application/json;+charset=utf-8 6 - 200 - application/json;+charset=utf-8 82.9254ms

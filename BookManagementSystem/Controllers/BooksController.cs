@@ -20,8 +20,7 @@ namespace BookManagementSystem.Controllers
         }
 
         // GET: api/Books
-        [HttpGet] 
-        [Authorize(Roles = "User, Admin")] 
+        [HttpGet]  
         public async Task<ActionResult> GetBooks(int pageNumber = 1, int pageSize = 5)
         {
             PageParams pageParam = new PageParams()
@@ -34,8 +33,7 @@ namespace BookManagementSystem.Controllers
         }
 
         // GET: api/Books/{id}
-        [HttpGet("{id}")]
-        [Authorize(Roles = "User, Admin")]
+        [HttpGet("{id}")] 
         public async Task<ActionResult> GetBook(int id)
         {
             if (id > 0)
@@ -47,9 +45,26 @@ namespace BookManagementSystem.Controllers
                 return StatusCode((int)HttpStatusCode.BadRequest);
         }
 
+        [HttpPost("GetBooksByIds")]
+        public async Task<ActionResult> GetBooksByIds([FromBody] List<string> ids)
+        {
+            ResultModel<Book> result = new ResultModel<Book>();
+            try
+            {
+                if(ids.Count > 0)
+                {
+                    var response = await _bookService.GetBooksByIds(ids);
+                    return StatusCode((int)HttpStatusCode.OK, response);
+                }
+                return StatusCode((int)HttpStatusCode.BadRequest);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.BadRequest, ex.Message);
+            } 
+        }
         // PUT: api/Books/{id}
-        [HttpPut]
-        [Authorize(Roles = "Admin")]
+        [HttpPut] 
         public async Task<ActionResult> PutBook(Book book)
         {
             if (ModelState.IsValid)
@@ -64,8 +79,7 @@ namespace BookManagementSystem.Controllers
         }
 
         // POST: api/Books
-        [HttpPost]
-        [Authorize(Roles="Admin")]
+        [HttpPost] 
         public async Task<ActionResult> PostBook(Book book)
         {
 
@@ -81,8 +95,7 @@ namespace BookManagementSystem.Controllers
         }
 
         // DELETE: api/Books/{id}
-        [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")] 
         public async Task<ActionResult> DeleteBook(int id)
         {
              if( id > 0 )
@@ -95,12 +108,5 @@ namespace BookManagementSystem.Controllers
                 return StatusCode((int)HttpStatusCode.BadRequest);
             }
         }
-        //Just to check the global exception 
-        [HttpGet("globalExceptionTest")]
-        public IActionResult ExceptionCheck()
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

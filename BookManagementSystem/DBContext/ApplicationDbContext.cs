@@ -1,11 +1,9 @@
-﻿using BookManagementSystem.Common;
-using BookManagementSystem.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using BookManagementSystem.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookManagementSystem.DBContext
 {
-    public class ApplicationDbContext: IdentityDbContext<Users, Roles, string>
+    public class ApplicationDbContext : DbContext
     {
         private readonly DbContextOptions<ApplicationDbContext> _options;
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
@@ -17,13 +15,7 @@ namespace BookManagementSystem.DBContext
         {
             optionsBuilder.UseInMemoryDatabase("InMemoryDb");
         }
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-            builder.Entity<Users>().ToTable("AspNetUsers");
-            builder.Entity<Roles>().ToTable("AspNetRoles");
-        }
+
         public DbSet<Book> Books { get; set; }
-        public DbSet<Users> Users { get; set; }
     }
 }

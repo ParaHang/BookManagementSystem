@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JL5nQnBWhFmF6EKe3bX06fqLuZaWqskmHUxEn4lZwqc=",
+  "Source": "BookManagementSystemOrder",
+  "BasePath": "_content/BookManagementSystemOrder",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\bin\Debug\net6.0\BookManagementSystem.Common.deps.json
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\bin\Debug\net6.0\BookManagementSystem.Common.dll
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\bin\Debug\net6.0\BookManagementSystem.Common.pdb
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.AssemblyInfoInputs.cache
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.AssemblyInfo.cs
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.csproj.CoreCompileInputs.cache
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.dll
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\refint\BookManagementSystem.Common.dll
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\BookManagementSystem.Common.pdb
+C:\Projects\BookManagementSystem\BookManagementSystem.Common\obj\Debug\net6.0\ref\BookManagementSystem.Common.dll

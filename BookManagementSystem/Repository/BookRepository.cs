@@ -90,6 +90,30 @@ namespace BookManagementSystem.Repository
             return result;
         }
 
+        public async Task<ResultModel<Book>> GetBooksByIds(List<string> ids)
+        {
+            ResultModel<Book> result = new ResultModel<Book>();
+            try
+            {
+                var books = await _context.Books.Where(x=> ids.Contains(x.Id.ToString())).ToListAsync();
+                if(books!= null && books.Any())
+                {
+                    result.data = books;
+                    result.success = true;
+                    result.status = "00";
+                    result.message = "Operation Successful";
+                }
+                else
+                {
+                    result.message = "No data";
+                }
+            }
+            catch(Exception ex)
+            {
+                result.message = "Internal Server Error: " + ex.Message;
+            }
+            return result;
+        }
         public async Task<ResultModel<Book>> GetAll(PageParams pageParams)
         {
             ResultModel<Book> result = new ResultModel<Book>();

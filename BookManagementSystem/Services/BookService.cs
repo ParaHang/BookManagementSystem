@@ -3,6 +3,7 @@ using BookManagementSystem.CommonModels;
 using BookManagementSystem.Entities;
 using BookManagementSystem.Interfaces;
 using BookManagementSystem.Repository.Interfaces;
+using NuGet.Protocol;
 
 namespace BookManagementSystem.Services
 {
@@ -37,6 +38,10 @@ namespace BookManagementSystem.Services
         public Task<ResultModel<string>> Update(Book book)
         {
             return _bookRepository.Update(book);
+        }
+        public async Task<ResultModel<Book>> GetBooksByIds(List<string> ids)
+        {
+            return await _bookRepository.GetBooksByIds(ids);
         }
     }
 }
