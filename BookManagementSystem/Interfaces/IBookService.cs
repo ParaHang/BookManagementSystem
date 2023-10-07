@@ -6,7 +6,7 @@ namespace BookManagementSystem.Interfaces
 {
     public interface IBookService
     {
-        Task<ResultModel<Book>> GetAll(PageParams pageParams);
+        Task<ResultModel<Book>> GetAll();
         Task<ResultModel<Book>> Get(int id);
         Task<ResultModel<string>> Update(Book book);
         Task<ResultModel<string>> Create(Book book);

@@ -30,9 +30,9 @@ namespace BookManagementSystem.Services
             return _bookRepository.Get(id);
         }
 
-        public async Task<ResultModel<Book>> GetAll(PageParams pageParams)
+        public async Task<ResultModel<Book>> GetAll()
         {
-            return await _bookRepository.GetAll(pageParams);
+            return await _bookRepository.GetAll();
         }
 
         public Task<ResultModel<string>> Update(Book book)

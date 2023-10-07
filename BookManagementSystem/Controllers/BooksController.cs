@@ -21,14 +21,10 @@ namespace BookManagementSystem.Controllers
 
         // GET: api/Books
         [HttpGet]  
-        public async Task<ActionResult> GetBooks(int pageNumber = 1, int pageSize = 5)
+        public async Task<ActionResult> GetBooks()
         {
-            PageParams pageParam = new PageParams()
-            {
-                PageSize = pageSize,
-                PageNumber = pageNumber
-            };
-            var books = await _bookService.GetAll(pageParam);
+            
+            var books = await _bookService.GetAll();
             return StatusCode((int)HttpStatusCode.OK, books);
         }
 

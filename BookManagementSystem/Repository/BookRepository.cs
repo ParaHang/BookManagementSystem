@@ -114,15 +114,12 @@ namespace BookManagementSystem.Repository
             }
             return result;
         }
-        public async Task<ResultModel<Book>> GetAll(PageParams pageParams)
+        public async Task<ResultModel<Book>> GetAll()
         {
             ResultModel<Book> result = new ResultModel<Book>();
             try
             {
-                var bookList = await _context.Books
-                    .Skip((pageParams.PageNumber - 1) * (pageParams.PageSize))
-                    .Take(pageParams.PageSize)
-                    .ToListAsync();
+                var bookList = await _context.Books.ToListAsync();
 
                 if (bookList != null && bookList.Any())
                 {

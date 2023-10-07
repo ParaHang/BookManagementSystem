@@ -24,15 +24,6 @@ builder.Services.AddScoped<IBookService, BookService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseInMemoryDatabase(configuration.GetConnectionString("DefaultConnection")));
 
-//Addition of Serilog 
-var logger = new LoggerConfiguration()
-    .ReadFrom.Configuration(builder.Configuration)
-    .Enrich.FromLogContext()
-    .CreateLogger();
-
-builder.Logging.ClearProviders();
-builder.Logging.AddSerilog(logger);
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
